@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Spam Classifier</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <h1>Email Spam Classifier</h1>
+            <p>Type an email below to determine if it is <strong>Spam</strong> or <strong>Not Spam</strong>.</p>
+        </header>
+
+        <!-- Input Section -->
+        <section class="input-section">
+            <h2>Enter Your Email</h2>
+            <textarea id="email-input" placeholder="Paste or type your email text here..."></textarea>
+            <button id="check-button">Check Email</button>
+        </section>
+
+        <!-- Output Section -->
+        <section class="output-section">
+            <h2>Prediction Result</h2>
+            <div id="result" class="result-box">Your result will appear here...</div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Email Spam Classifier | Powered by AI</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
